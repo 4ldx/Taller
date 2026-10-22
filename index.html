@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Motors & Co. | Taller Automotriz & Detailing</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Barra Superior de Urgencias -->
+  <aside class="top-announcement" aria-label="Información de atención">
+    <span>🔧 Diagnóstico por escáner computarizado gratis en tu servicio mayor | Servicio de Grúa 24/7</span>
+  </aside>
+
+  <!-- Encabezado -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#home" class="brand">
+        MOTORS<span class="brand-accent">&</span>CO.
+        <small class="brand-tag">AUTO SERVICE & DETAILING</small>
+      </a>
+      <nav class="nav-menu">
+        <a href="#home">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#cotizador">Cotizador</a>
+        <a href="#garantia">Garantía</a>
+        <a href="#cotizador" class="nav-btn">Agendar Cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <span class="badge-tech">⚡ Mantenimiento Preventivo & Correctivo</span>
+        <h1>Tu vehículo en manos de expertos certificados</h1>
+        <p class="hero-subtitle">Mecánica general, escáner multimarca, suspensión, frenos y estético automotriz con garantía por escrito.</p>
+        <div class="hero-actions">
+          <a href="#cotizador" class="btn-primary">Cotizar Servicio</a>
+          <a href="#servicios" class="btn-outline">Ver Especialidades</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Barra de Confianza -->
+    <section class="trust-bar">
+      <div class="trust-item">
+        <div class="trust-icon">🛡️</div>
+        <div>
+          <h4>Garantía de 6 Meses</h4>
+          <p>Por escrito en mano de obra y refacciones</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">💻</div>
+        <div>
+          <h4>Escáner Multimarca</h4>
+          <p>Diagnóstico electrónico preciso</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon">⏱️</div>
+        <div>
+          <h4>Entrega Puntual</h4>
+          <p>Reportes de avance por foto/video</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de Servicios -->
+    <section class="services-section" id="servicios">
+      <div class="section-title">
+        <span class="sub-heading">Especialidades Automotrices</span>
+        <h2>Servicios para Mantener tu Auto al 100%</h2>
+        <div class="divider"></div>
+        <p class="section-desc">Selecciona uno o más servicios para calcular tu presupuesto estimado e iniciar tu agenda.</p>
+      </div>
+
+      <div class="services-grid">
+
+        <!-- Servicio 1 -->
+        <article class="service-card" data-service="Afinación Mayor & Cambio de Aceite Sintético" data-price="1800">
+          <div class="card-image">
+            <span class="card-badge popular">Popular</span>
+            <img src="https://images.unsplash.com/photo-1486006920555-c77dce18193b?auto=format&fit=crop&w=800&q=80" alt="Afinación mayor" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="category">Mantenimiento Preventivo</span>
+            <h3>Afinación Mayor & Aceite Sintético</h3>
+            <p>Cambio de aceite, filtro de aceite, aire y gasolina, bujías de iridio y lavado de cuerpo de aceleración.</p>
+            <div class="card-footer">
+              <span class="price">Desde $1,800 <small>MXN</small></span>
+              <button type="button" class="select-btn">Añadir a Cotización</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Servicio 2 -->
+        <article class="service-card" data-service="Servicio de Frenos (Balatas & Rectificación)" data-price="1200">
+          <div class="card-image">
+            <span class="card-badge safety">Seguridad</span>
+            <img src="https://images.unsplash.com/photo-1600792823812-32a27a83d7ef?auto=format&fit=crop&w=800&q=80" alt="Servicio de frenos" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="category">Seguridad Activa</span>
+            <h3>Sistema de Frenos Completo</h3>
+            <p>Cambio de balatas cerámicas, rectificación de discos o tambores, y purgado de líquido de frenos.</p>
+            <div class="card-footer">
+              <span class="price">Desde $1,200 <small>MXN</small></span>
+              <button type="button" class="select-btn">Añadir a Cotización</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Servicio 3 -->
+        <article class="service-card" data-service="Suspensión & Dirección" data-price="1500">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=80" alt="Suspensión y dirección" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="category">Confort & Estabilidad</span>
+            <h3>Suspensión, Amortiguadores & Dirección</h3>
+            <p>Revisión y cambio de amortiguadores, rótulas, bujes, terminales y alineación computarizada.</p>
+            <div class="card-footer">
+              <span class="price">Desde $1,500 <small>MXN</small></span>
+              <button type="button" class="select-btn">Añadir a Cotización</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Servicio 4 -->
+        <article class="service-card" data-service="Detailing Interior & Corrección de Pintura" data-price="2200">
+          <div class="card-image">
+            <span class="card-badge premium">Detailing Pro</span>
+            <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=800&q=80" alt="Estética automotriz" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="category">Estética Automotriz</span>
+            <h3>Correction de Pintura & Detailing</h3>
+            <p>Pulido cerámico, lavado profundo de vestiduras a vapor, hidratación de plásticos y sellador cerámico.</p>
+            <div class="card-footer">
+              <span class="price">Desde $2,200 <small>MXN</small></span>
+              <button type="button" class="select-btn">Añadir a Cotización</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Servicio 5 -->
+        <article class="service-card" data-service="Diagnóstico Computarizado Check Engine" data-price="500">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=800&q=80" alt="Diagnóstico con escáner" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="category">Electrónica Automotriz</span>
+            <h3>Diagnóstico Check Engine & Escáner</h3>
+            <p>Escaneo completo de módulos OBD2, borrado de códigos y diagnóstico preciso de fallas eléctricas.</p>
+            <div class="card-footer">
+              <span class="price">$500 <small>MXN</small></span>
+              <button type="button" class="select-btn">Añadir a Cotización</button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Servicio 6 -->
+        <article class="service-card" data-service="Mantenimiento de Aire Acondicionado" data-price="950">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=80" alt="Aire Acondicionado" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="category">Climatización</span>
+            <h3>Mantenimiento & Recarga de A/C</h3>
+            <p>Detección de fugas con tinte UV, recarga de gas refrigerante, cambio de filtro de cabina y sanitización.</p>
+            <div class="card-footer">
+              <span class="price">Desde $950 <small>MXN</small></span>
+              <button type="button" class="select-btn">Añadir a Cotización</button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <!-- Cotizador Integrado + Datos del Vehículo -->
+      <div class="quote-builder" id="cotizador">
+        <div class="quote-header">
+          <h3>📋 Datos de tu Vehículo para Cotización</h3>
+          <p>Ingresa la información para personalizar la cotización de tus servicios seleccionados.</p>
+        </div>
+
+        <div class="form-grid">
+          <div class="form-group">
+            <label for="carBrand">Marca y Submarca:</label>
+            <input type="text" id="carBrand" placeholder="Ej. Ford Ranger / Nissan Versa">
+          </div>
+          <div class="form-group">
+            <label for="carYear">Año del Modelo:</label>
+            <input type="number" id="carYear" placeholder="Ej. 2018">
+          </div>
+          <div class="form-group">
+            <label for="userNotes">Comentarios o Falla Especifica:</label>
+            <input type="text" id="userNotes" placeholder="Ej. Tiembla al frenar, ruido en baches, etc.">
+          </div>
+        </div>
+
+        <div class="quote-summary">
+          <div class="summary-details">
+            <p>Servicios elegidos: <strong id="selectedServicesCount">0</strong></p>
+            <div class="total-estimated">
+              <span>Estimado aprox:</span>
+              <strong id="estimatedTotal">$0 MXN</strong>
+            </div>
+          </div>
+          <button type="button" class="btn-whatsapp-pro" id="btnSendQuote">
+            <svg class="ws-icon" viewBox="0 0 24 24" width="22" height="22" fill="currentColor">
+              <path d="M12.012 2c-5.506 0-9.989 4.478-9.99 9.984a9.964 9.964 0 001.333 4.993L2 22l5.233-1.237a9.982 9.982 0 004.779 1.217h.004c5.505 0 9.988-4.478 9.989-9.985 0-2.668-1.037-5.176-2.922-7.062A9.925 9.925 0 0012.012 2zm0 18.156h-.003a8.31 8.31 0 01-4.242-1.166l-.304-.181-3.155.746.825-3.076-.198-.315a8.288 8.288 0 01-1.272-4.38c.001-4.582 3.729-8.309 8.312-8.309 2.219 0 4.304.865 5.872 2.435a8.267 8.267 0 012.43 5.875c-.001 4.583-3.729 8.31-8.312 8.31z"/>
+            </svg>
+            Solicitar Cotización por WhatsApp
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 <strong>Motors & Co. Auto Service & Detailing</strong>. Todos los derechos reservados.</p>
+  </footer>
+
+  <!-- Script Interactivo -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const TELEFONO_WHATSAPP = "528611265737";
+      const cards = document.querySelectorAll(".service-card");
+      const selectedServicesCount = document.getElementById("selectedServicesCount");
+      const estimatedTotal = document.getElementById("estimatedTotal");
+      const btnSendQuote = document.getElementById("btnSendQuote");
+
+      let selectedList = [];
+
+      cards.forEach(card => {
+        card.addEventListener("click", () => {
+          card.classList.toggle("selected");
+          const btn = card.querySelector(".select-btn");
+
+          if (card.classList.contains("selected")) {
+            btn.innerText = "✓ Seleccionado";
+          } else {
+            btn.innerText = "Añadir a Cotización";
+          }
+
+          updateQuote();
+        });
+      });
+
+      function updateQuote() {
+        selectedList = [];
+        let total = 0;
+
+        document.querySelectorAll(".service-card.selected").forEach(card => {
+          const name = card.getAttribute("data-service");
+          const price = parseFloat(card.getAttribute("data-price"));
+          selectedList.push({ name, price });
+          total += price;
+        });
+
+        selectedServicesCount.innerText = selectedList.length;
+        estimatedTotal.innerText = `$${total.toLocaleString()} MXN`;
+      }
+
+      btnSendQuote.addEventListener("click", (e) => {
+        e.preventDefault();
+
+        const carBrand = document.getElementById("carBrand").value.trim() || "No especificado";
+        const carYear = document.getElementById("carYear").value.trim() || "No especificado";
+        const userNotes = document.getElementById("userNotes").value.trim() || "Sin observaciones adicionales";
+
+        let mensaje = "¡Hola MOTORS & CO.! 🚗 Me gustaría cotizar el servicio para mi vehículo:\n\n";
+        mensaje += `🚘 *Vehículo:* ${carBrand} (Año: ${carYear})\n`;
+        mensaje += `📝 *Observaciones/Síntomas:* ${userNotes}\n\n`;
+
+        if (selectedList.length > 0) {
+          mensaje += "*Servicios de interés seleccionados:*\n";
+          selectedList.forEach((item, index) => {
+            mensaje += `${index + 1}. ${item.name} (Aprox $${item.price.toLocaleString()} MXN)\n`;
+          });
+
+          const total = selectedList.reduce((acc, i) => acc + i.price, 0);
+          mensaje += `\n💰 *Monto Estimado Inicial:* $${total.toLocaleString()} MXN\n`;
+        } else {
+          mensaje += "Deseo recibir información general y disponibilidad de citas esta semana.\n";
+        }
+
+        mensaje += "\n¿En qué horarios tienen disponible para revisión?";
+
+        const urlWhatsApp = `https://api.whatsapp.com/send?phone=${TELEFONO_WHATSAPP}&text=${encodeURIComponent(mensaje)}`;
+        window.open(urlWhatsApp, "_blank");
+      });
+    });
+  </script>
+</body>
+</html>
